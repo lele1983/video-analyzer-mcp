@@ -17,6 +17,7 @@ Un server MCP (Model Context Protocol) per scaricare e analizzare video da Insta
 | `video_download_tiktok` | Scarica video da TikTok |
 | `video_analyze` | Analizza un video con Gemini Flash AI |
 | `video_download_and_analyze` | Workflow completo: download + analisi |
+| `batch_video_analyze` | Workflow parallelo: download o analisi multipla di URL |
 
 ### Tipi di Analisi
 
