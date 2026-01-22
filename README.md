@@ -63,7 +63,7 @@ nano .env
 
 **Ottieni le chiavi:**
 - **Apify**: [console.apify.com/account/integrations](https://console.apify.com/account/integrations)
-- **Gemini**: [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
+- **OpenRouter**: [openrouter.ai/keys](https://openrouter.ai/keys)
 
 ## ⚙️ Configurazione MCP Client
 
@@ -80,7 +80,7 @@ nano .env
       "args": ["/path/to/video-analyzer-mcp/server.py"],
       "env": {
         "APIFY_API_TOKEN": "your_apify_token",
-        "GEMINI_API_KEY": "your_gemini_key"
+        "OPENROUTER_API_KEY": "your_openrouter_key"
       }
     }
   }
@@ -101,7 +101,7 @@ nano .env
       ],
       "env": {
         "APIFY_API_TOKEN": "your_apify_token",
-        "GEMINI_API_KEY": "your_gemini_key"
+        "OPENROUTER_API_KEY": "your_openrouter_key"
       }
     }
   }
@@ -120,7 +120,7 @@ Aggiungi al tuo `settings.json` o configurazione MCP:
       "args": ["/path/to/server.py"],
       "env": {
         "APIFY_API_TOKEN": "...",
-        "GEMINI_API_KEY": "..."
+        "OPENROUTER_API_KEY": "..."
       }
     }
   }
